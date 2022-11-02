@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+
+}
+
+#grid-container {
+  display: grid;
+<<<<<<< HEAD
+  grid-template-columns: 1fr 6fr;
+  grid-template-rows: 1;
+  grid-template-areas: "aside main";
+=======
+  grid-template-areas:
+    "s bo bo bo bo bo bo"
+    "s ma ma wo wo lf lf"
+    "s bl bl bl ab ab ab";
+  grid-gap: 20px;
+}
+
+#sideNav {
+  grid-area: s;
+  color: gray;
+}
+
+#boot {
+  grid-area: bo;
+}
+
+#cat-mens {
+  grid-area: ma;
+}
+
+#cat-woman {
+  grid-area: wo;
+}
+
+#life-style {
+  grid-area: lf;
+}
+
+#blog {
+  grid-area: bl;
+}
+
+#home-about {
+  grid-area: ab;
+>>>>>>> resize
+}
+
+ul {
+  list-style-type: none;
+  color: rgb(157, 156, 156);
+}
+
+<<<<<<< HEAD
+aside {
+  grid-area: aside;
+  font-size: 0.7em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  display: grid;
+}
+
+nav {
+  align-self: center;
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  gap: 20px 20px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 3;
+  grid-template-areas:
+    "header"
+    "gallery"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+header > img {
+=======
+.pageImage {
+>>>>>>> resize
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  color: gray;
+<<<<<<< HEAD
+  width: 10%;
+  opacity: 0.5;
+}
+
+.galleryImage {
+  width: 100%;
+}
+
+.galleryItem1 {
+  grid-area: galleryItem1;
+}
+
+.galleryItem2 {
+  grid-area: galleryItem2;
+}
+
+.galleryItem3 {
+  grid-area: galleryItem3;
+}
+
+footer {
+  grid-area: footer;
+  display: grid;
+  justify-content: end;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "footer footer";
+  justify-items: stretch;
+  gap: 20px;
+=======
+  width: 20%;
+
+  opacity: 0.5;
+>>>>>>> resize
+}
